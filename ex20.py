@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 20: Functions and Files
 
 # imports the argv function (?) from the sys module
@@ -11,16 +14,16 @@ def print_all(f):
     print f.read()
 
 # creates a function rewind(f) that sets the input file
-# to 0 (bytes) via the 'seek()' function 
+# to 0 (bytes) via the 'seek()' function
 def rewind(f):
     f.seek(0)
 
 # defines the function to print the contents of a specific line of file object 'f', plus the line number or 'count'
 def print_a_line(line_count, f):
     print line_count, f.readline()
-    
+
 # note: readline() reads a single line up to the \n character but leaves the \n character at the end of the line, so this automically advances the file position by 1 line for every time the function is called, leaving a new blank line in place. That's why there's a line break in the output code. That's how this script is reading, printing, and advancing each line in turn.
-    
+
 # sets 'current_file' to be the defined in the arguments when running the script
 current_file = open(input_file)
 
@@ -33,7 +36,7 @@ print_all(current_file)
 # print statement
 print "Now let's rewind, kind of like a tape"
 
-# calls the funtion 'rewind' with the parameter 'current_file' 
+# calls the funtion 'rewind' with the parameter 'current_file'
 rewind(current_file)
 
 # print statement

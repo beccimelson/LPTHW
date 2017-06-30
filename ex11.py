@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 11: Asking Questions
 
 print "How old are you?",

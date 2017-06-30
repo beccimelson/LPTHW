@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 3: Numbers and Math
 
 # + plus

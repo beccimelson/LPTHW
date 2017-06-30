@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 5: More Variables and Printing
 
 name = 'Elisabeth aka Becci'

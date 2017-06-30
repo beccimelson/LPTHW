@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 16: Reading and Writing Files
 
 # LIST OF COMMANDS:
@@ -55,15 +58,8 @@ script, filename = argv
 with open(filename) as f:
     output = f.read()
 
-    
-# Study Drill 3: There's too much repetition in this file. Use strings, formats, and escapes to print out line1, line2, and line3 with just one target.write() command instead of six.  
+
+# Study Drill 3: There's too much repetition in this file. Use strings, formats, and escapes to print out line1, line2, and line3 with just one target.write() command instead of six.
 # http://stackoverflow.com/questions/8691311/python-how-to-write-multiple-strings-in-one-line
 
 target.write('{}\n{}\n{}\n'.format(line1, line2, line3))
-
-
-
-
-
-
-

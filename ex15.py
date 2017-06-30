@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 15: Reading Files
 
 # Lines 4 & 6 uses argv to get a filename.

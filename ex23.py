@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Project: https://github.com/schollz/howmanypeoplearearound/tree/master/howmanypeoplearearound
 
 # /__main__.py

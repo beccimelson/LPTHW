@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 12: Prompting People
 
 y = raw_input("Name? ")
@@ -13,4 +16,3 @@ print "So, you're %r old, %r tall and %r heavy." % (
 
 
 # pydoc command: Pydoc is the documentation generation system for Python
-

@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 2: Comments and Pound Characters
 
 # A comment, this is so you can read your program later.

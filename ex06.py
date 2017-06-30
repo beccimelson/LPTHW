@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 6: Strings and Text
 
 x = "There are %d types of people." % 10

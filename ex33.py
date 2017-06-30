@@ -1,3 +1,8 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
+# Exercise #33: While Loops
+
 i = 0
 numbers = []
 

@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 26: Congratulations, Take a Test!
 
 def break_words(stuff):

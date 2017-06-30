@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 9: Printing, Printing, Printing
 
 # Here's some new strange stuff, remember type it exactly.

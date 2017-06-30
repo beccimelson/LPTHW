@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 17: More Files
 # write a Python script to copy one file to another.
 

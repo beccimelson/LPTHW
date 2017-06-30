@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 28: Boolean Practice
 
 # ..Start Python in your Terminal and type each logic problem in to confirm your answers:

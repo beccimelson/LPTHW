@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 8: Printing, Printing
 
 formatter = "%r %r %r %r"

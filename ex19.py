@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 19: Functions and Variables
 # The variables in your function are not connected to the variables in your script.
 
@@ -15,41 +18,41 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print "Man that's enough for a party!"
     # prints a string
     print "Get a blanket.\n"
-    
+
     # prints a string
     print "We can just give the function numbers directly:"
     # calls the function cheese_and_crackers with arguement value of 20 and 30
     cheese_and_crackers(20,30)
-    
+
     # prints a string
     print "OR, we can use variables from our script:"
     # creates variable amount_of_cheese with value "10"
     amount_of_cheese = 10
     # creates variable amount_of_crackers with value "50"
     amount_of_crackers = 50
-    
-    # calls the function cheese_and_crackers with arguements set to the variables 
+
+    # calls the function cheese_and_crackers with arguements set to the variables
     # "amount_of_cheese" and "amount_of_crackers", whos values are set to "10"
     # and "50" respectivelly
     cheese_and_crackers(amount_of_cheese, amount_of_crackers)
-    
+
     # prints a string
     print "We can even do math inside too:"
     cheese_and_crackers(10 + 20, 5 + 6)
     # calls the function "cheese_and_crackers" with the arguments "10+20" and "5+6"
-    # which proves it's possible to do math on the arguments/values passed to the 
+    # which proves it's possible to do math on the arguments/values passed to the
     # function
-    
+
     # prints a string
     print "And we can combine the two, variables and math:"
     # calls the function cheese_and_crackers with the arguements
     # "amount_of_cheese + 100", "amount_of_crackers + 1000"
     cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
-    
-    
-    
-    
-    
+
+
+
+
+
     # I only found 8 unique ways to call the function and they're listed below:
 
     # 1. Simple arguments passed directly
@@ -60,8 +63,8 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers):
     # 6. Variable number of arguments (using the asterisk method)
     # 7. Writing another function, then pass values to the original one within in it
     # 8. User input
-    
-    
+
+
 def order_stats(total_orders, total_returns):
     print(f"You have {total_orders} orders")
     print(f"You have {total_returns} returns")
@@ -103,4 +106,3 @@ func_to_func()
 print("how much did you sell this month?")
 user_sales = int(input('>>>'))
 order_stats(user_sales, returns)
-    

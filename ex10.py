@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 10: What Was That?
 
 "I am 6'2\" tall."  # escape double-quote inside string

@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 4: Variables And Names
 
 # to make a space: _ (underscore character)

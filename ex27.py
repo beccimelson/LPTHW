@@ -1,3 +1,6 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+
 # Exercise 27: Memorizing Logic
 
 # 'Truth' terms:
